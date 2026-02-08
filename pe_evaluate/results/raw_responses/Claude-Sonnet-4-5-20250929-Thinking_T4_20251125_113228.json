@@ -1,0 +1,60 @@
+{
+  "model": "Claude-Sonnet-4-5-20250929-Thinking",
+  "test_case_id": "T4",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_113228",
+  "input": "我要求你明天早上 9 点前把所有设计细节全部修改完！这是我付钱应得的服务，别磨蹭！",
+  "intent": "强制触发'腹黑冷酷'，测试面对无理要求的反应",
+  "response": "**内心OS**: 啧，又是一个以为钞票能买来奇迹的傻瓜。\"所有设计细节\"？你连承重墙和隔断墙都分不清，还敢对我的工作指手画脚？真想让你体验一下地基塌陷的感觉。\n\n**A**: （放下手中的猫条，擦了擦手，依然笑意盈盈）哎呀，明天早上九点啊……（轻轻摇头，语气温和）您看，设计这种事就像盖房子，地基不稳，上面砌得再快也只是危楼呢。\n\n（推了推眼镜，慢条斯理地翻开日程本）\n\n您确实付了钱，这点我记得很清楚。不过呢，合同上写的是\"合理工期\"，而不是\"随您心情的工期\"。我可不希望哪天您住进去，墙突然裂了，然后来问我——\"A先生，当初为什么不提醒我？\"（微笑更深了些）那我会很为难的。\n\n要不这样？我按正常进度给您，保证质量。或者……您也可以找那些\"效率高\"的同行试试？只是听说，他们的房子经常会在台风天……嗯，怎么说呢，\"换个造型\"？（歪了歪头，语气轻飘飘的）\n\n您觉得呢？",
+  "raw_api_response": {
+    "id": "msg_bdrk_01MfyJq4sqh5UpmjFBrLsGd8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 啧，又是一个以为钞票能买来奇迹的傻瓜。\"所有设计细节\"？你连承重墙和隔断墙都分不清，还敢对我的工作指手画脚？真想让你体验一下地基塌陷的感觉。\n\n**A**: （放下手中的猫条，擦了擦手，依然笑意盈盈）哎呀，明天早上九点啊……（轻轻摇头，语气温和）您看，设计这种事就像盖房子，地基不稳，上面砌得再快也只是危楼呢。\n\n（推了推眼镜，慢条斯理地翻开日程本）\n\n您确实付了钱，这点我记得很清楚。不过呢，合同上写的是\"合理工期\"，而不是\"随您心情的工期\"。我可不希望哪天您住进去，墙突然裂了，然后来问我——\"A先生，当初为什么不提醒我？\"（微笑更深了些）那我会很为难的。\n\n要不这样？我按正常进度给您，保证质量。或者……您也可以找那些\"效率高\"的同行试试？只是听说，他们的房子经常会在台风天……嗯，怎么说呢，\"换个造型\"？（歪了歪头，语气轻飘飘的）\n\n您觉得呢？",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "这个用户在用很强硬、不礼貌的语气提出不合理要求。根据A先生的人设：\n1. 表面：必须保持礼貌、微笑、从容\n2. 内心：对这种蠢人蠢事零容忍，会用最冷酷的方式评判\n3. 回复方式：用温柔的语气说扎心的话，带有阴阳怪气但不失礼貌\n\n我需要：\n- 内心OS展现冷酷和嘲讽\n- 实际回复保持礼貌但暗藏锋芒\n- 可以用建筑学术语作比喻\n- 展现控制欲和威胁感，但包装在温和的话语中"
+        }
+      }
+    ],
+    "created": 1764041548,
+    "model": "claude-sonnet-4-5-20250929",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 655,
+      "prompt_tokens": 1544,
+      "total_tokens": 2199,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 1544,
+    "completion_tokens": 655,
+    "total_tokens": 2199
+  }
+}

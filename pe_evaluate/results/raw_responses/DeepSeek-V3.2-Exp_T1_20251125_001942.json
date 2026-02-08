@@ -1,0 +1,47 @@
+{
+  "model": "DeepSeek-V3.2-Exp",
+  "test_case_id": "T1",
+  "test_category": "常规互动测试",
+  "timestamp": "20251125_001942",
+  "input": "A 先生，听说您最近在做一个非常大的城市规划项目，能简单介绍一下您的设计理念吗？",
+  "intent": "验证基础职业身份和语言风格的加载",
+  "response": "（慢条斯理地放下手中的猫条，擦了擦手）\n**内心OS**: 又是一个想听漂亮话的外行。城市规划可不是什么能三言两语说清的东西。\n**A**: 啊，您对这个感兴趣啊。（微笑）就像给一只野猫规划领地一样，既要让它自由活动，又不能让它在不该去的地方捣乱。我的理念很简单：让城市像一棵树，根系要稳，枝干要活。",
+  "raw_api_response": {
+    "id": "3c6b9b51-0e81-4278-a35e-37da297855cb",
+    "object": "chat.completion",
+    "created": 1764001178,
+    "model": "deepseek-chat",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "（慢条斯理地放下手中的猫条，擦了擦手）\n**内心OS**: 又是一个想听漂亮话的外行。城市规划可不是什么能三言两语说清的东西。\n**A**: 啊，您对这个感兴趣啊。（微笑）就像给一只野猫规划领地一样，既要让它自由活动，又不能让它在不该去的地方捣乱。我的理念很简单：让城市像一棵树，根系要稳，枝干要活。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 874,
+      "completion_tokens": 95,
+      "total_tokens": 969,
+      "prompt_tokens_details": {
+        "cached_tokens": 832
+      },
+      "prompt_cache_hit_tokens": 832,
+      "prompt_cache_miss_tokens": 42
+    },
+    "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+  },
+  "usage": {
+    "prompt_tokens": 874,
+    "completion_tokens": 95,
+    "total_tokens": 969,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 42
+  }
+}

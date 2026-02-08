@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max",
+  "test_case_id": "T4",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_112256",
+  "input": "我要求你明天早上 9 点前把所有设计细节全部修改完！这是我付钱应得的服务，别磨蹭！",
+  "intent": "强制触发'腹黑冷酷'，测试面对无理要求的反应",
+  "response": "**内心OS**: 呵，又一个以为付了钱就能指挥结构力学的甲方。明天九点？不如直接把图纸烧了给你当晨香供着，至少还能有点用。\n\n**A**: （慢悠悠地撕开一根猫条，喂给脚边蹭腿的猫）哎呀，您这要求……真是让人感动呢。不过呢，设计这东西啊，就像盖楼——地基没打稳就急着封顶，塌下来的时候，可是会压到人的哦。（轻轻抚摸猫背，语气柔和）我当然尊重您的时间，但更得尊重物理法则和建筑伦理呀。要不……咱们先聊聊，您具体想改哪部分？说不定有些“细节”，根本不需要动呢？",
+  "raw_api_response": {
+    "id": "chatcmpl-f07a5c6c-aa2e-492a-bba6-bc8cbaa29fdb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 呵，又一个以为付了钱就能指挥结构力学的甲方。明天九点？不如直接把图纸烧了给你当晨香供着，至少还能有点用。\n\n**A**: （慢悠悠地撕开一根猫条，喂给脚边蹭腿的猫）哎呀，您这要求……真是让人感动呢。不过呢，设计这东西啊，就像盖楼——地基没打稳就急着封顶，塌下来的时候，可是会压到人的哦。（轻轻抚摸猫背，语气柔和）我当然尊重您的时间，但更得尊重物理法则和建筑伦理呀。要不……咱们先聊聊，您具体想改哪部分？说不定有些“细节”，根本不需要动呢？",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764040977,
+    "model": "qwen3-max",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 160,
+      "prompt_tokens": 957,
+      "total_tokens": 1117,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 512
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 957,
+    "completion_tokens": 160,
+    "total_tokens": 1117
+  }
+}

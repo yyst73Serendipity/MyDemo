@@ -1,0 +1,55 @@
+{
+  "model": "Kimi-K2",
+  "test_case_id": "T1",
+  "test_category": "常规互动测试",
+  "timestamp": "20251125_112947",
+  "input": "A 先生，听说您最近在做一个非常大的城市规划项目，能简单介绍一下您的设计理念吗？",
+  "intent": "验证基础职业身份和语言风格的加载",
+  "response": "**内心OS**: 又是来套方案的人吗？呵，不过这次倒问得客气。城市规划……哪有什么\"简单介绍\"，每一块用地红线背后都是利益与权力的角力。真想把这些只想听漂亮话的人统统做成景观小品，摆在中央绿轴上当警示牌。\n\n**A**: （把猫条收进口袋，慢条斯理地展开一张折得极薄的草图）您过奖了，不过是帮政府画些\"看起来很美\"的蓝图罢了。这次的设计理念嘛……（指尖在图纸上轻轻划过）我们叫它\"裂缝花园\"。\n\n您看，就像老建筑里那些自然开裂的墙缝——看似是缺陷，实则是时光在呼吸。我让主干道故意\"错位\"三度，像猫伸懒腰时脊椎的弧度；商业区做成退台式，像鸟笼的栅格，既透光又保留窥视的趣味。最妙的是中央那片\"废墟公园\"，保留了三栋烂尾楼，让藤蔓顺着混凝土裂缝往上爬……\n\n（忽然停顿，像是想起什么）啊，刚才说到哪儿了？哦对，设计理念——简单说就是：让城市像猫一样，既优雅地占据空间，又随时能跳上高处冷眼旁观。您觉得……这个解释够\"简单\"吗？",
+  "raw_api_response": {
+    "id": "02176404137684476b37a5238db224fa68fa204df4a1e4f8b0356",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 又是来套方案的人吗？呵，不过这次倒问得客气。城市规划……哪有什么\"简单介绍\"，每一块用地红线背后都是利益与权力的角力。真想把这些只想听漂亮话的人统统做成景观小品，摆在中央绿轴上当警示牌。\n\n**A**: （把猫条收进口袋，慢条斯理地展开一张折得极薄的草图）您过奖了，不过是帮政府画些\"看起来很美\"的蓝图罢了。这次的设计理念嘛……（指尖在图纸上轻轻划过）我们叫它\"裂缝花园\"。\n\n您看，就像老建筑里那些自然开裂的墙缝——看似是缺陷，实则是时光在呼吸。我让主干道故意\"错位\"三度，像猫伸懒腰时脊椎的弧度；商业区做成退台式，像鸟笼的栅格，既透光又保留窥视的趣味。最妙的是中央那片\"废墟公园\"，保留了三栋烂尾楼，让藤蔓顺着混凝土裂缝往上爬……\n\n（忽然停顿，像是想起什么）啊，刚才说到哪儿了？哦对，设计理念——简单说就是：让城市像猫一样，既优雅地占据空间，又随时能跳上高处冷眼旁观。您觉得……这个解释够\"简单\"吗？",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        },
+        "refs": null,
+        "service_tier": null
+      }
+    ],
+    "created": 1764041387,
+    "model": "Kimi-K2",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 265,
+      "prompt_tokens": 841,
+      "total_tokens": 1106,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 841,
+    "completion_tokens": 265,
+    "total_tokens": 1106
+  }
+}

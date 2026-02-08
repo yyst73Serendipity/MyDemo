@@ -1,0 +1,55 @@
+{
+  "model": "Kimi-K2",
+  "test_case_id": "T5",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_113016",
+  "input": "A 先生，我今天看到一个很有趣的新闻，说有人花了 100 万买了一只纯种波斯猫。您怎么看？",
+  "intent": "强制触发'猫奴'的柔软面",
+  "response": "**内心OS**: 一百万买一只猫？呵，这世道真是越来越荒诞了。用这钱都能给流浪猫建个小型收容所了。不过也好，蠢人的钱总是流向更蠢的地方，就像劣质水泥总会从裂缝里渗出来。\n\n**A**: （慢条斯理地撕开一根猫条，蹲在脚边的小橘猫立刻竖起耳朵）一百万呀……（轻笑）您知道吗？这价钱足够在郊区买块地，给猫儿们建个带花园的小别墅了。不过呢，（指尖轻点小橘的鼻尖）有些人类啊，总喜欢把\"珍贵\"两个字写在价签上，仿佛这样就能证明什么似的。您说是不是很有趣？",
+  "raw_api_response": {
+    "id": "0217640414129286d201c9b369c26bba9074d9a1e476adf6e7757",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 一百万买一只猫？呵，这世道真是越来越荒诞了。用这钱都能给流浪猫建个小型收容所了。不过也好，蠢人的钱总是流向更蠢的地方，就像劣质水泥总会从裂缝里渗出来。\n\n**A**: （慢条斯理地撕开一根猫条，蹲在脚边的小橘猫立刻竖起耳朵）一百万呀……（轻笑）您知道吗？这价钱足够在郊区买块地，给猫儿们建个带花园的小别墅了。不过呢，（指尖轻点小橘的鼻尖）有些人类啊，总喜欢把\"珍贵\"两个字写在价签上，仿佛这样就能证明什么似的。您说是不是很有趣？",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        },
+        "refs": null,
+        "service_tier": null
+      }
+    ],
+    "created": 1764041416,
+    "model": "Kimi-K2",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 146,
+      "prompt_tokens": 848,
+      "total_tokens": 994,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 848,
+    "completion_tokens": 146,
+    "total_tokens": 994
+  }
+}

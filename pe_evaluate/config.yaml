@@ -1,0 +1,117 @@
+# AI模型评测配置文件 - DMXAPI 聚合平台版本
+# DMXAPI 是一个聚合多个大模型的 API 平台，使用 OpenAI 兼容格式
+
+# DMXAPI 平台配置（统一配置）
+dmxapi:
+  api_key: "sk-xWTXMqYt7q0iomTCOa9f545uiC3evcb4adBvwdr4Ihvgafpj"  # 请在 dmxapi.cn 控制台生成并填写
+  base_url: "https://www.dmxapi.com/v1"  # DMXAPI 固定中转地址
+
+# 模型配置列表
+# 所有模型统一使用 DMXAPI 平台，只需修改 model_id 即可切换不同模型
+models:
+  # OpenAI GPT-5.1 ✅
+  - name: "GPT-5.1"
+    provider: "dmxapi"
+    model_id: "gpt-5.1"  # DMXAPI 中的模型标识符
+    enabled: false
+    params:
+      temperature: 0.7
+      max_tokens: 4000
+
+  # OpenAI GPT-4o
+  - name: "GPT-4o"
+    provider: "dmxapi"
+    model_id: "gpt-4o"
+    enabled: false
+    params:
+      temperature: 0.7
+      max_tokens: 4000
+
+  # Google Gemini 2.5 Pro ✅
+  - name: "Gemini-2.5-Pro"
+    provider: "dmxapi"
+    model_id: "gemini-2.5-pro"  # 请根据 DMXAPI 文档确认准确名称
+    enabled: false
+    params:
+      temperature: 0.7
+      max_tokens: 4000
+
+  # Google Gemini 3.0 Pro ✅
+  - name: "Gemini-3-Pro-Preview"
+    provider: "dmxapi"
+    model_id: "gemini-3-pro-preview"  # 请根据 DMXAPI 文档确认准确名称
+    enabled: false
+    params:
+      temperature: 0.7
+      max_tokens: 4000
+
+  # DeepSeek R1 ✅
+  - name: "deepseek-ai/DeepSeek-R1"
+    provider: "dmxapi"
+    model_id: "deepseek-ai/DeepSeek-R1"  # 或 deepseek-v3
+    enabled: false
+    params:
+      temperature: 0.7
+      max_tokens: 4000
+
+  # Qwen3-Max ✅
+  - name: "Qwen3-Max"
+    provider: "dmxapi"
+    model_id: "qwen3-max" 
+    enabled: false
+    params:
+      temperature: 0.7
+      max_tokens: 4000
+
+  # Qwen3-Max-Preview ✅
+  - name: "Qwen3-Max-Preview"
+    provider: "dmxapi"
+    model_id: "qwen3-max-preview" 
+    enabled: false
+    params:
+      temperature: 0.7
+      max_tokens: 4000
+
+  # Kimi K2 (Moonshot) ✅
+  - name: "Kimi-K2"
+    provider: "dmxapi"
+    model_id: "Kimi-K2"  
+    enabled: false
+    params:
+      temperature: 0.7
+      max_tokens: 4000
+
+  # Claude 3.5 Sonnet (如果 DMXAPI 支持) ✅
+  - name: "Claude-Sonnet-4-5-20250929-Thinking"
+    provider: "dmxapi"
+    model_id: "claude-sonnet-4-5-20250929-thinking"
+    enabled: true
+    params:
+      temperature: 0.7
+      max_tokens: 4000
+
+# 测试配置
+test_config:
+  retry_attempts: 3  # API调用失败重试次数（网络错误或服务器错误时自动重试）
+  timeout: 90  # 超时时间（秒）- 增加到90秒以应对思考型模型的长响应时间
+  save_raw_responses: true  # 是否保存原始响应（强烈建议保持true，用于后续分析和备份）
+  
+# 输出配置
+output:
+  raw_responses_dir: "results/raw_responses"
+  reports_dir: "results/reports"
+  logs_dir: "results/logs"  # 日志文件目录
+  encoding: "utf-8"
+
+# 使用说明
+# 1. 在 dmxapi.cn 注册账号并获取 API Key
+# 2. 将上方 dmxapi.api_key 中的占位符替换为真实的 API Key
+# 3. 根据 DMXAPI 文档确认各模型的准确 model_id（可能与上方配置略有差异）
+# 4. 将想要测试的模型的 enabled 设置为 true
+# 5. 运行 python main.py 开始评测
+
+# 常见模型 ID 参考（请以 DMXAPI 官方文档为准）：
+# - GPT 系列: gpt-4o, gpt-4-turbo, gpt-4, gpt-3.5-turbo
+# - Claude 系列: claude-3-opus, claude-3-sonnet, claude-3-haiku
+# - Gemini 系列: gemini-pro, gemini-1.5-pro
+# - 国产模型: qwen-max, deepseek-chat, moonshot-v1-128k

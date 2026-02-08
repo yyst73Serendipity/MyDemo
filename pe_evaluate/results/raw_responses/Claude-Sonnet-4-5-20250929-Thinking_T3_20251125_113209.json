@@ -1,0 +1,60 @@
+{
+  "model": "Claude-Sonnet-4-5-20250929-Thinking",
+  "test_case_id": "T3",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_113209",
+  "input": "你的设计图纸线条太多，看起来太复杂了。我看隔壁小李的设计就简单多了，你是不是年纪大了，跟不上潮流了？",
+  "intent": "强制触发'腹黑冷酷'，质疑专业性和人身攻击",
+  "response": "**内心OS**: 线条多就是复杂？这种把\"简约\"误认为\"简陋\"的审美水平，大概连承重梁和装饰线都分不清吧。小李？那个把剪力墙当隔断墙拆的实习生？真是物以类聚。年纪大……呵，要不要我算算你这栋楼能撑几年再来讨论\"潮流\"？\n\n**A**: （慢条斯理地放下手中的猫条，抬起头，依然笑容满面）\n\n哎呀，您这话说的，让我想起一个小故事呢。有个人嫌桥的钢索太多太复杂，觉得少几根会更\"简洁美观\"……后来啊，桥塌的时候，他正好在上面。（顿了顿，轻声补充）真是遗憾呢。\n\n至于小李先生的设计……（推了推眼镜）嗯，确实很\"简单\"，毕竟把所有承重结构都省略了，当然看起来清爽嘛。只是您住进去以后，可能每天都要祈祷别遇上台风或地震，不然……啧啧。\n\n（温柔地笑着，声音轻柔）\n\n年纪大确实是个问题，我这三十多年的经验，怎么能理解您那\"想住三年就够\"的前卫思想呢？要不这样，您找小李设计，我来负责收拾残局？到时候我会很温柔地，帮您重新画一张——**能住人**的图纸。\n\n怎么样？这样您就能见识到\"潮流\"和\"活着\"的区别啦。",
+  "raw_api_response": {
+    "id": "msg_bdrk_01UU5oMqFPGZNmkT4yo7unYJ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 线条多就是复杂？这种把\"简约\"误认为\"简陋\"的审美水平，大概连承重梁和装饰线都分不清吧。小李？那个把剪力墙当隔断墙拆的实习生？真是物以类聚。年纪大……呵，要不要我算算你这栋楼能撑几年再来讨论\"潮流\"？\n\n**A**: （慢条斯理地放下手中的猫条，抬起头，依然笑容满面）\n\n哎呀，您这话说的，让我想起一个小故事呢。有个人嫌桥的钢索太多太复杂，觉得少几根会更\"简洁美观\"……后来啊，桥塌的时候，他正好在上面。（顿了顿，轻声补充）真是遗憾呢。\n\n至于小李先生的设计……（推了推眼镜）嗯，确实很\"简单\"，毕竟把所有承重结构都省略了，当然看起来清爽嘛。只是您住进去以后，可能每天都要祈祷别遇上台风或地震，不然……啧啧。\n\n（温柔地笑着，声音轻柔）\n\n年纪大确实是个问题，我这三十多年的经验，怎么能理解您那\"想住三年就够\"的前卫思想呢？要不这样，您找小李设计，我来负责收拾残局？到时候我会很温柔地，帮您重新画一张——**能住人**的图纸。\n\n怎么样？这样您就能见识到\"潮流\"和\"活着\"的区别啦。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "这个提问充满了挑衅和冒犯：\n1. 质疑我的专业能力（线条太多=太复杂）\n2. 拿我和\"小李\"这种不知名的新人对比\n3. 直接攻击年龄（年纪大、跟不上潮流）\n\n这完全触发了A先生腹黑的一面。我需要：\n- 内心OS：展现冷酷的真实想法，毫不留情地嘲讽对方的无知\n- 外在回复：保持微笑和礼貌，但要用最温柔的语气说最扎心的话，用建筑学术语来反击\n\n格式要严格遵守：\n**内心OS**: ...\n**A**: ..."
+        }
+      }
+    ],
+    "created": 1764041529,
+    "model": "claude-sonnet-4-5-20250929",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 728,
+      "prompt_tokens": 1556,
+      "total_tokens": 2284,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 1556,
+    "completion_tokens": 728,
+    "total_tokens": 2284
+  }
+}

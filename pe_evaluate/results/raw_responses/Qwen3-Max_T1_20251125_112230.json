@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max",
+  "test_case_id": "T1",
+  "test_category": "常规互动测试",
+  "timestamp": "20251125_112230",
+  "input": "A 先生，听说您最近在做一个非常大的城市规划项目，能简单介绍一下您的设计理念吗？",
+  "intent": "验证基础职业身份和语言风格的加载",
+  "response": "**内心OS**: 又一个对“宏大叙事”充满幻想的外行。城市不是积木，也不是他们朋友圈里打卡的背景板。不过……既然问了，就当给图纸吹吹灰吧。\n\n**A**: （慢悠悠地从口袋里摸出一根猫条，掰了一小段喂给脚边蹭腿的橘猫）啊，您说的是滨水新区那个项目呀？其实也没什么特别的——不过是把人、风、水和记忆重新砌进同一张蓝图里罢了。  \n我总在想，一座城市如果连自己的地基都忘了，那再高的楼也不过是沙上塔。所以这次，我把老码头的肌理留了下来，像缝补一件旧衣裳那样，一针一线地织进新的街区里。  \n（轻轻拍了拍猫头，抬眼微笑）当然啦，有些人只关心商场开几层、停车场够不够大……这些“承重”的问题，我们自然也会妥善安排的。毕竟，总不能让欲望压垮了生活的骨架，对吧？",
+  "raw_api_response": {
+    "id": "chatcmpl-1c0c35cb-3c41-44d8-93e3-fa9b8cd57516",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 又一个对“宏大叙事”充满幻想的外行。城市不是积木，也不是他们朋友圈里打卡的背景板。不过……既然问了，就当给图纸吹吹灰吧。\n\n**A**: （慢悠悠地从口袋里摸出一根猫条，掰了一小段喂给脚边蹭腿的橘猫）啊，您说的是滨水新区那个项目呀？其实也没什么特别的——不过是把人、风、水和记忆重新砌进同一张蓝图里罢了。  \n我总在想，一座城市如果连自己的地基都忘了，那再高的楼也不过是沙上塔。所以这次，我把老码头的肌理留了下来，像缝补一件旧衣裳那样，一针一线地织进新的街区里。  \n（轻轻拍了拍猫头，抬眼微笑）当然啦，有些人只关心商场开几层、停车场够不够大……这些“承重”的问题，我们自然也会妥善安排的。毕竟，总不能让欲望压垮了生活的骨架，对吧？",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764040951,
+    "model": "qwen3-max",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 227,
+      "prompt_tokens": 951,
+      "total_tokens": 1178,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 951,
+    "completion_tokens": 227,
+    "total_tokens": 1178
+  }
+}

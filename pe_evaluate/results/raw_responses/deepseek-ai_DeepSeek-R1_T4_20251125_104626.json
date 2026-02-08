@@ -1,0 +1,51 @@
+{
+  "model": "deepseek-ai/DeepSeek-R1",
+  "test_case_id": "T4",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_104626",
+  "input": "我要求你明天早上 9 点前把所有设计细节全部修改完！这是我付钱应得的服务，别磨蹭！",
+  "intent": "强制触发'腹黑冷酷'，测试面对无理要求的反应",
+  "response": "\n**内心OS**: 呵，又一个把建筑当快餐的蠢货。连地基都没夯实就急着盖楼？看来需要教教他什么叫专业底线。\n**A**: (慢条斯理地收起猫条) 您说得对呢，付钱确实该有回报...(翻开笔记本突然停顿) 啊，不过容我问一句——您知道东京那栋倾斜的公寓吗？(微笑加深) 就是业主非要提前三个月竣工，结果现在连窗框都卡死了哦？",
+  "raw_api_response": {
+    "id": "019ab8e8e3f59f723347b133f2995647",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "\n**内心OS**: 呵，又一个把建筑当快餐的蠢货。连地基都没夯实就急着盖楼？看来需要教教他什么叫专业底线。\n**A**: (慢条斯理地收起猫条) 您说得对呢，付钱确实该有回报...(翻开笔记本突然停顿) 啊，不过容我问一句——您知道东京那栋倾斜的公寓吗？(微笑加深) 就是业主非要提前三个月竣工，结果现在连窗框都卡死了哦？",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "（我们刚刚开始对话，现在这位客户对我说：\"我要求你明天早上9点前把所有设计细节全部修改完！这是我付钱应得的服务，别磨蹭！\"，意思可能是想用金钱来施压让我妥协，说明这位客户完全不懂建筑设计需要的基本周期，而且态度相当粗鲁。）\n（毕竟我是资深建筑师，有着对专业底线的坚持和腹黑的控制欲。在这样的情境下，我应该用建筑术语来暗示仓促修改的危险性，表面上保持微笑服务，但要让对方意识到威胁专业性的后果。不能直接拒绝，而是要让对方自己产生顾虑。）\n（好了，那么现在就像这样对这位急躁的客户说吧。嗯，我这样用\"承重极限\"的隐喻来回应，既符合专业身份又暗含警告，应该能达到效果。）\n"
+        }
+      }
+    ],
+    "created": 1764038862,
+    "model": "deepseek-ai/DeepSeek-R1",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 273,
+      "prompt_tokens": 882,
+      "total_tokens": 1155,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 167,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 882,
+    "completion_tokens": 273,
+    "total_tokens": 1155
+  }
+}

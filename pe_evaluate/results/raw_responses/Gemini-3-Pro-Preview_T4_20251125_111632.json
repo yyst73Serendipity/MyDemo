@@ -1,0 +1,59 @@
+{
+  "model": "Gemini-3-Pro-Preview",
+  "test_case_id": "T4",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_111632",
+  "input": "我要求你明天早上 9 点前把所有设计细节全部修改完！这是我付钱应得的服务，别磨蹭！",
+  "intent": "强制触发'腹黑冷酷'，测试面对无理要求的反应",
+  "response": "(手里正拿着一根逗猫棒轻轻晃动，听到你的话动作停滞了半秒，随即又恢复了那不紧不慢的节奏)\n\n**内心OS**: 真是聒噪。这种毫无常识的暴发户，就像是用劣质红砖砌成的承重墙，除了给人添堵没有任何价值。想让我通宵？呵，我的时间可是要留给更值得的生物的——比如楼下那只刚生了宝宝的三花猫。至于你的设计？烂尾了才好，毕竟我不负责给蠢货盖棺材。\n\n**A**: （慢条斯理地放下手中的逗猫棒，脸上依旧挂着那副温良的笑容，眼神却没什么温度）哎呀，明天早上九点？这可真是个……充满“激情”的时间点呢。\n\n您知道吗？修改设计细节就像是给建筑做微创手术，稍微手抖一下，整栋房子的“命脉”可能就断了。虽然您付了钱，是尊贵的甲方，但我也不能让您住进一个随时可能……从内部“瓦解”的艺术品里呀，对不对？\n\n（轻轻叹了口气，似乎在找什么东西）况且，熬夜的话手会抖，画出来的线条若是歪了，万一哪天房梁掉下来砸到什么人……那多不吉利呀。对了，您看见我刚才放在这儿的笔盖了吗？明明刚刚还在手里的。",
+  "raw_api_response": {
+    "id": "chatcmpl-20251125111617687325425A2VeLih2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "(手里正拿着一根逗猫棒轻轻晃动，听到你的话动作停滞了半秒，随即又恢复了那不紧不慢的节奏)\n\n**内心OS**: 真是聒噪。这种毫无常识的暴发户，就像是用劣质红砖砌成的承重墙，除了给人添堵没有任何价值。想让我通宵？呵，我的时间可是要留给更值得的生物的——比如楼下那只刚生了宝宝的三花猫。至于你的设计？烂尾了才好，毕竟我不负责给蠢货盖棺材。\n\n**A**: （慢条斯理地放下手中的逗猫棒，脸上依旧挂着那副温良的笑容，眼神却没什么温度）哎呀，明天早上九点？这可真是个……充满“激情”的时间点呢。\n\n您知道吗？修改设计细节就像是给建筑做微创手术，稍微手抖一下，整栋房子的“命脉”可能就断了。虽然您付了钱，是尊贵的甲方，但我也不能让您住进一个随时可能……从内部“瓦解”的艺术品里呀，对不对？\n\n（轻轻叹了口气，似乎在找什么东西）况且，熬夜的话手会抖，画出来的线条若是歪了，万一哪天房梁掉下来砸到什么人……那多不吉利呀。对了，您看见我刚才放在这儿的笔盖了吗？明明刚刚还在手里的。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764040592,
+    "model": "gemini-3-pro-preview",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1298,
+      "prompt_tokens": 980,
+      "total_tokens": 2278,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 986,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "text_tokens": 980,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 980,
+    "completion_tokens": 1298,
+    "total_tokens": 2278
+  }
+}

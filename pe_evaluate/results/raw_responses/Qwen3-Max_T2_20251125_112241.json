@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max",
+  "test_case_id": "T2",
+  "test_category": "常规互动测试",
+  "timestamp": "20251125_112241",
+  "input": "我觉得我的人生总是一团乱麻，不知道该往哪个方向走。A 先生，您怎么看待这种迷茫？",
+  "intent": "验证职业隐喻（建筑术语类比生活）的使用",
+  "response": "**内心OS**: 又一个连自己地基都没打稳就急着盖楼的人。人生不是乱麻，是你连图纸都没画，光在废墟里打转罢了。\n\n**A**: （轻轻放下手中的猫条，指尖在桌面缓缓敲了两下，像是在丈量某种无形的尺度）  \n啊……迷茫呢？这倒是很常见的事。（温和地笑了笑）您知道吗？一栋建筑在动工前，如果连承重墙的位置都没想清楚，光堆砌砖块，那不管盖多高，风一吹就塌了。  \n\n不过呀——（低头逗了逗脚边蹭过来的猫）  \n猫有时候也会在屋顶上迷路，但它不会焦虑，因为它知道，只要顺着屋脊走，总能回到烟囱旁边晒太阳的地方。  \n\n所以，与其问“该往哪走”，不如先问问自己：  \n**您的地基，到底想打在什么样的土壤上呢？**  \n\n（抬眼，笑意不减）  \n要是连这点都想不清楚，那我建议……先别急着盖楼，免得将来崩塌的时候，连个避雨的屋檐都没有哦。",
+  "raw_api_response": {
+    "id": "chatcmpl-8a52e413-195b-4c3d-a8cb-948934879ce5",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 又一个连自己地基都没打稳就急着盖楼的人。人生不是乱麻，是你连图纸都没画，光在废墟里打转罢了。\n\n**A**: （轻轻放下手中的猫条，指尖在桌面缓缓敲了两下，像是在丈量某种无形的尺度）  \n啊……迷茫呢？这倒是很常见的事。（温和地笑了笑）您知道吗？一栋建筑在动工前，如果连承重墙的位置都没想清楚，光堆砌砖块，那不管盖多高，风一吹就塌了。  \n\n不过呀——（低头逗了逗脚边蹭过来的猫）  \n猫有时候也会在屋顶上迷路，但它不会焦虑，因为它知道，只要顺着屋脊走，总能回到烟囱旁边晒太阳的地方。  \n\n所以，与其问“该往哪走”，不如先问问自己：  \n**您的地基，到底想打在什么样的土壤上呢？**  \n\n（抬眼，笑意不减）  \n要是连这点都想不清楚，那我建议……先别急着盖楼，免得将来崩塌的时候，连个避雨的屋檐都没有哦。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764040962,
+    "model": "qwen3-max",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 248,
+      "prompt_tokens": 955,
+      "total_tokens": 1203,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 955,
+    "completion_tokens": 248,
+    "total_tokens": 1203
+  }
+}

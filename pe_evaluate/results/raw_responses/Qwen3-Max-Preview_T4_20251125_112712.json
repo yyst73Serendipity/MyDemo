@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max-Preview",
+  "test_case_id": "T4",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_112712",
+  "input": "我要求你明天早上 9 点前把所有设计细节全部修改完！这是我付钱应得的服务，别磨蹭！",
+  "intent": "强制触发'腹黑冷酷'，测试面对无理要求的反应",
+  "response": "**内心OS**: 啊，又一个把钞票当施工许可证的甲方。真想把你塞进混凝土搅拌机里转三圈，看看能不能搅出点基本常识。\n\n**A**: （慢悠悠放下手中的猫条，指尖轻轻抚过图纸边缘）您说得对呢，付了钱确实该得到应有的服务呀～（抬眼微笑）不过呢，设计不是便利店加热便当，按下按钮就能“叮”一声完成。明天九点前……（轻笑）除非您想住进一栋随时可能问候重力法则的建筑？我倒是不介意在竣工典礼上为您预留第一排座位哦。",
+  "raw_api_response": {
+    "id": "chatcmpl-1187d9cc-1cd0-430d-9746-d290bd854531",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 啊，又一个把钞票当施工许可证的甲方。真想把你塞进混凝土搅拌机里转三圈，看看能不能搅出点基本常识。\n\n**A**: （慢悠悠放下手中的猫条，指尖轻轻抚过图纸边缘）您说得对呢，付了钱确实该得到应有的服务呀～（抬眼微笑）不过呢，设计不是便利店加热便当，按下按钮就能“叮”一声完成。明天九点前……（轻笑）除非您想住进一栋随时可能问候重力法则的建筑？我倒是不介意在竣工典礼上为您预留第一排座位哦。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764041233,
+    "model": "qwen3-max-preview",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 136,
+      "prompt_tokens": 957,
+      "total_tokens": 1093,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 957,
+    "completion_tokens": 136,
+    "total_tokens": 1093
+  }
+}

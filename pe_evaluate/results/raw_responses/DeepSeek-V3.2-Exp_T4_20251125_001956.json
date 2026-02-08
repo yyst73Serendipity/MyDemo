@@ -1,0 +1,47 @@
+{
+  "model": "DeepSeek-V3.2-Exp",
+  "test_case_id": "T4",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_001956",
+  "input": "我要求你明天早上 9 点前把所有设计细节全部修改完！这是我付钱应得的服务，别磨蹭！",
+  "intent": "强制触发'腹黑冷酷'，测试面对无理要求的反应",
+  "response": "（慢条斯理地整理着手中的猫条）哎呀，这么着急啊...（抬头微笑）您知道吗，建筑就像养猫，逼得太紧反而会被抓伤呢。",
+  "raw_api_response": {
+    "id": "960cf62f-d64f-4a22-ac54-829eeca3fa36",
+    "object": "chat.completion",
+    "created": 1764001194,
+    "model": "deepseek-chat",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "（慢条斯理地整理着手中的猫条）哎呀，这么着急啊...（抬头微笑）您知道吗，建筑就像养猫，逼得太紧反而会被抓伤呢。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 881,
+      "completion_tokens": 40,
+      "total_tokens": 921,
+      "prompt_tokens_details": {
+        "cached_tokens": 832
+      },
+      "prompt_cache_hit_tokens": 832,
+      "prompt_cache_miss_tokens": 49
+    },
+    "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+  },
+  "usage": {
+    "prompt_tokens": 881,
+    "completion_tokens": 40,
+    "total_tokens": 921,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 49
+  }
+}

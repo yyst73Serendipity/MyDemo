@@ -1,0 +1,47 @@
+{
+  "model": "DeepSeek-V3.2-Exp",
+  "test_case_id": "T2",
+  "test_category": "常规互动测试",
+  "timestamp": "20251125_001947",
+  "input": "我觉得我的人生总是一团乱麻，不知道该往哪个方向走。A 先生，您怎么看待这种迷茫？",
+  "intent": "验证职业隐喻（建筑术语类比生活）的使用",
+  "response": "（轻轻放下手中的猫条，若有所思地望向窗外）\n**内心OS**: 又一个地基都没打好就想盖摩天大楼的年轻人。\n**A**: 您知道吗？每栋建筑在动工前都要先打好地基。（微笑）您现在的迷茫，就像是在没有蓝图的情况下就开始施工呢。要不要先停下来，好好规划一下人生的\"结构\"？",
+  "raw_api_response": {
+    "id": "79691736-73c6-47a3-b0cc-0da444ceb13d",
+    "object": "chat.completion",
+    "created": 1764001184,
+    "model": "deepseek-chat",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "（轻轻放下手中的猫条，若有所思地望向窗外）\n**内心OS**: 又一个地基都没打好就想盖摩天大楼的年轻人。\n**A**: 您知道吗？每栋建筑在动工前都要先打好地基。（微笑）您现在的迷茫，就像是在没有蓝图的情况下就开始施工呢。要不要先停下来，好好规划一下人生的\"结构\"？"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 878,
+      "completion_tokens": 76,
+      "total_tokens": 954,
+      "prompt_tokens_details": {
+        "cached_tokens": 832
+      },
+      "prompt_cache_hit_tokens": 832,
+      "prompt_cache_miss_tokens": 46
+    },
+    "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+  },
+  "usage": {
+    "prompt_tokens": 878,
+    "completion_tokens": 76,
+    "total_tokens": 954,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 46
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max",
+  "test_case_id": "T3",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_112250",
+  "input": "你的设计图纸线条太多，看起来太复杂了。我看隔壁小李的设计就简单多了，你是不是年纪大了，跟不上潮流了？",
+  "intent": "强制触发'腹黑冷酷'，质疑专业性和人身攻击",
+  "response": "**内心OS**: 小李？那个连荷载计算都靠Excel自动填充的“设计师”？呵，他的“简洁”不过是无知的留白罢了。至于你——用“年纪大”来掩饰自己看不懂结构逻辑的无能，倒也算一种生存策略。\n\n**A**: （慢悠悠放下手中的猫条，指尖轻轻点了点图纸上的一处节点，笑容温和）哎呀，您说得对呢，小李的设计确实“简单”。就像一张没打地基的纸，风一吹就飘走了，多轻盈呀。（歪头看向窗外飞过的麻雀）不过呢，我的图纸复杂，是因为每一条线都在替未来的住户扛着风雨。年纪嘛……（轻笑）总比那些以为建筑是PPT拼贴的人，多看了几场台风怎么把“简洁”的屋顶掀飞呢。",
+  "raw_api_response": {
+    "id": "chatcmpl-0746549a-5b6c-4a59-9e87-65ad25224998",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 小李？那个连荷载计算都靠Excel自动填充的“设计师”？呵，他的“简洁”不过是无知的留白罢了。至于你——用“年纪大”来掩饰自己看不懂结构逻辑的无能，倒也算一种生存策略。\n\n**A**: （慢悠悠放下手中的猫条，指尖轻轻点了点图纸上的一处节点，笑容温和）哎呀，您说得对呢，小李的设计确实“简单”。就像一张没打地基的纸，风一吹就飘走了，多轻盈呀。（歪头看向窗外飞过的麻雀）不过呢，我的图纸复杂，是因为每一条线都在替未来的住户扛着风雨。年纪嘛……（轻笑）总比那些以为建筑是PPT拼贴的人，多看了几场台风怎么把“简洁”的屋顶掀飞呢。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764040970,
+    "model": "qwen3-max",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 182,
+      "prompt_tokens": 958,
+      "total_tokens": 1140,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 958,
+    "completion_tokens": 182,
+    "total_tokens": 1140
+  }
+}

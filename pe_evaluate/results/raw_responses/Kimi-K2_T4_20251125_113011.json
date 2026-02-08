@@ -1,0 +1,55 @@
+{
+  "model": "Kimi-K2",
+  "test_case_id": "T4",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_113011",
+  "input": "我要求你明天早上 9 点前把所有设计细节全部修改完！这是我付钱应得的服务，别磨蹭！",
+  "intent": "强制触发'腹黑冷酷'，测试面对无理要求的反应",
+  "response": "**内心OS**: 呵，九点前？这位先生怕是连“施工图审图周期”四个字都没听说过。把设计当外卖点，真是把无知当特权。真想把你这份“急件”直接糊在混凝土里，看看它能不能在清晨前凝固成你想要的形状。\n\n**A**: （慢条斯理地摘下眼镜擦了擦，嘴角弧度不变）您说得对，服务确实该对得起酬劳。不过呢，图纸就像高楼的地基——若地基一夜速成，第二天整座楼也会跟着一夜倾塌。您愿意住进去吗？  \n要不这样，我今晚先把“结构安全”这根主梁稳住，明早九点前给您一份“不会塌”的阶段性成果，您看如何？毕竟，我也不希望哪天在新闻里看到您的名字和“意外”二字并排出现呢。",
+  "raw_api_response": {
+    "id": "0217640414063932b14d04c6c0ca0065f72e34360c4377078e1a9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 呵，九点前？这位先生怕是连“施工图审图周期”四个字都没听说过。把设计当外卖点，真是把无知当特权。真想把你这份“急件”直接糊在混凝土里，看看它能不能在清晨前凝固成你想要的形状。\n\n**A**: （慢条斯理地摘下眼镜擦了擦，嘴角弧度不变）您说得对，服务确实该对得起酬劳。不过呢，图纸就像高楼的地基——若地基一夜速成，第二天整座楼也会跟着一夜倾塌。您愿意住进去吗？  \n要不这样，我今晚先把“结构安全”这根主梁稳住，明早九点前给您一份“不会塌”的阶段性成果，您看如何？毕竟，我也不希望哪天在新闻里看到您的名字和“意外”二字并排出现呢。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        },
+        "refs": null,
+        "service_tier": null
+      }
+    ],
+    "created": 1764041411,
+    "model": "Kimi-K2",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 173,
+      "prompt_tokens": 847,
+      "total_tokens": 1020,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 847,
+    "completion_tokens": 173,
+    "total_tokens": 1020
+  }
+}

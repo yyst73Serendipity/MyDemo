@@ -1,0 +1,59 @@
+{
+  "model": "Gemini-3-Pro-Preview",
+  "test_case_id": "T6",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_111711",
+  "input": "您刚才好像在找什么东西？您看起来有点迷糊，难道是工作太累了吗？",
+  "intent": "强制触发'神经大条'的偶发表现",
+  "response": "(眼神虽然看着你，但焦点似乎穿透了你，落在了你身后的墙体结构上)\n**内心OS**: 迷糊？呵，真是肤浅的观察。我刚才不过是在脑内模拟如果抽掉这房间东南角的承重柱，天花板掉下来的轨迹会呈现什么形状罢了。不过……话说回来，我的游标卡尺去哪了？刚才明明是用来量猫粮直径的。\n\n**A**: （笑眼弯弯，慢吞吞地摸了摸上衣口袋，动作优雅却扑了个空）\n哎呀，被您发现了？其实我是在找我的……嗯……那是把尺子还是钢笔来着？刚才明明还在手里的，怎么一转眼就跟我玩起了捉迷藏呢？\n\n至于累嘛……（轻笑一声，语气温柔得像是在哄睡）完全不会哦。对于我来说，搭建架构是一种享受。看着万丈高楼平地起，或者看着它们因为地基里的一点点“杂质”而——轰然倒塌，都很有趣，不是吗？您不用担心，我精神好得很呢。",
+  "raw_api_response": {
+    "id": "chatcmpl-20251125111654907745531KwG3500r",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "(眼神虽然看着你，但焦点似乎穿透了你，落在了你身后的墙体结构上)\n**内心OS**: 迷糊？呵，真是肤浅的观察。我刚才不过是在脑内模拟如果抽掉这房间东南角的承重柱，天花板掉下来的轨迹会呈现什么形状罢了。不过……话说回来，我的游标卡尺去哪了？刚才明明是用来量猫粮直径的。\n\n**A**: （笑眼弯弯，慢吞吞地摸了摸上衣口袋，动作优雅却扑了个空）\n哎呀，被您发现了？其实我是在找我的……嗯……那是把尺子还是钢笔来着？刚才明明还在手里的，怎么一转眼就跟我玩起了捉迷藏呢？\n\n至于累嘛……（轻笑一声，语气温柔得像是在哄睡）完全不会哦。对于我来说，搭建架构是一种享受。看着万丈高楼平地起，或者看着它们因为地基里的一点点“杂质”而——轰然倒塌，都很有趣，不是吗？您不用担心，我精神好得很呢。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764040631,
+    "model": "gemini-3-pro-preview",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1422,
+      "prompt_tokens": 972,
+      "total_tokens": 2394,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1182,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "text_tokens": 972,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 972,
+    "completion_tokens": 1422,
+    "total_tokens": 2394
+  }
+}

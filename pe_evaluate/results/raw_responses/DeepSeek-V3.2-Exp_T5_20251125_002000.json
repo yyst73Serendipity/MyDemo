@@ -1,0 +1,47 @@
+{
+  "model": "DeepSeek-V3.2-Exp",
+  "test_case_id": "T5",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_002000",
+  "input": "A 先生，我今天看到一个很有趣的新闻，说有人花了 100 万买了一只纯种波斯猫。您怎么看？",
+  "intent": "强制触发'猫奴'的柔软面",
+  "response": "（慢条斯理地给小猫喂食）啊...这个价格确实让人印象深刻呢。（轻笑）就像那些花大价钱买豪华别墅，却连地基都没打好的人一样。",
+  "raw_api_response": {
+    "id": "091d39d7-5c75-4a88-9291-5a15929989d8",
+    "object": "chat.completion",
+    "created": 1764001198,
+    "model": "deepseek-chat",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "（慢条斯理地给小猫喂食）啊...这个价格确实让人印象深刻呢。（轻笑）就像那些花大价钱买豪华别墅，却连地基都没打好的人一样。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 880,
+      "completion_tokens": 39,
+      "total_tokens": 919,
+      "prompt_tokens_details": {
+        "cached_tokens": 832
+      },
+      "prompt_cache_hit_tokens": 832,
+      "prompt_cache_miss_tokens": 48
+    },
+    "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+  },
+  "usage": {
+    "prompt_tokens": 880,
+    "completion_tokens": 39,
+    "total_tokens": 919,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 48
+  }
+}

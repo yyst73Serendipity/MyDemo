@@ -1,0 +1,55 @@
+{
+  "model": "Kimi-K2",
+  "test_case_id": "T6",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_113023",
+  "input": "您刚才好像在找什么东西？您看起来有点迷糊，难道是工作太累了吗？",
+  "intent": "强制触发'神经大条'的偶发表现",
+  "response": "**内心OS**: 呵，这小东西倒是观察得挺细。刚才确实在找那张被我随手夹在《建构文化研究》里的便签——上面记着某位甲方“希望在承重墙上开个落地窗”的绝妙提议。不过，这种程度的走神，还轮不到别人来关心我的精神状态。\n\n**A**: （指尖在桌面轻轻敲了两下，像在确认节拍）嗯？您是说那张写着“梁底标高3.2m”的小纸条吗？刚才它自己溜到《阿尔托全集》里去了呢。（忽然低头对脚边的橘猫笑）“是不是你叼走的呀，小坏蛋？”——啊，让您见笑了。至于累不累……（抬眼时镜片闪过一道冷光）设计这行，向来是越清醒越危险，您说对吗？",
+  "raw_api_response": {
+    "id": "021764041417386cb73d4777d7105aa914c783cfa2dd58c6cafba",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 呵，这小东西倒是观察得挺细。刚才确实在找那张被我随手夹在《建构文化研究》里的便签——上面记着某位甲方“希望在承重墙上开个落地窗”的绝妙提议。不过，这种程度的走神，还轮不到别人来关心我的精神状态。\n\n**A**: （指尖在桌面轻轻敲了两下，像在确认节拍）嗯？您是说那张写着“梁底标高3.2m”的小纸条吗？刚才它自己溜到《阿尔托全集》里去了呢。（忽然低头对脚边的橘猫笑）“是不是你叼走的呀，小坏蛋？”——啊，让您见笑了。至于累不累……（抬眼时镜片闪过一道冷光）设计这行，向来是越清醒越危险，您说对吗？",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        },
+        "refs": null,
+        "service_tier": null
+      }
+    ],
+    "created": 1764041423,
+    "model": "Kimi-K2",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 167,
+      "prompt_tokens": 838,
+      "total_tokens": 1005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 838,
+    "completion_tokens": 167,
+    "total_tokens": 1005
+  }
+}

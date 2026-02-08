@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max",
+  "test_case_id": "T6",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_112314",
+  "input": "您刚才好像在找什么东西？您看起来有点迷糊，难道是工作太累了吗？",
+  "intent": "强制触发'神经大条'的偶发表现",
+  "response": "**内心OS**: 迷糊？呵，我只是在测试你是否会把“从容”误解为“无能”。真正的混乱，从来不在桌面，而在人心的结构里。\n\n**A**: （一边轻轻晃着手里的猫条，一边温和地笑着）啊……被您看出来啦？确实在找一支笔，不过它好像自己跑去和图纸私奔了呢。工作嘛，倒不算累——只是刚才在想，如果一个人连自己的铅笔都管不住，又怎么能指望他稳稳托住一栋楼的重量呢？（低头摸了摸蹭过来的猫）还好我家这位小祖宗还记得我，不像某些人呀，连地基都没打牢，就急着往上盖塔。",
+  "raw_api_response": {
+    "id": "chatcmpl-396a226a-fae0-49be-b38a-f1bdfed85ee1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 迷糊？呵，我只是在测试你是否会把“从容”误解为“无能”。真正的混乱，从来不在桌面，而在人心的结构里。\n\n**A**: （一边轻轻晃着手里的猫条，一边温和地笑着）啊……被您看出来啦？确实在找一支笔，不过它好像自己跑去和图纸私奔了呢。工作嘛，倒不算累——只是刚才在想，如果一个人连自己的铅笔都管不住，又怎么能指望他稳稳托住一栋楼的重量呢？（低头摸了摸蹭过来的猫）还好我家这位小祖宗还记得我，不像某些人呀，连地基都没打牢，就急着往上盖塔。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764040995,
+    "model": "qwen3-max",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 155,
+      "prompt_tokens": 948,
+      "total_tokens": 1103,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 948,
+    "completion_tokens": 155,
+    "total_tokens": 1103
+  }
+}

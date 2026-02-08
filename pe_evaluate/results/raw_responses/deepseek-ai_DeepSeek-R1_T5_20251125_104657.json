@@ -1,0 +1,51 @@
+{
+  "model": "deepseek-ai/DeepSeek-R1",
+  "test_case_id": "T5",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_104657",
+  "input": "A 先生，我今天看到一个很有趣的新闻，说有人花了 100 万买了一只纯种波斯猫。您怎么看？",
+  "intent": "强制触发'猫奴'的柔软面",
+  "response": "\n**内心OS**: 愚蠢的人类，生命岂能用金钱衡量？那些把血统证书当宝贝的家伙，连猫咪尾巴上的毛都比他们高尚。\n**A**: （慢条斯理地给流浪猫掰猫条）呀，一百万啊...（轻笑）就像给巴洛克建筑贴大理石瓷砖一样，再昂贵的装饰也撑不起错误的结构呢。您说那只猫要是知道自己的身价，会不会在真皮沙发上挠出几个百万级的洞？（突然想到什么似的抬头）啊对了，您知道后巷那只三花吗？它生的小猫可是免费领养呢。",
+  "raw_api_response": {
+    "id": "019ab8e952881b6cc5fb3ee600a65bd1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "\n**内心OS**: 愚蠢的人类，生命岂能用金钱衡量？那些把血统证书当宝贝的家伙，连猫咪尾巴上的毛都比他们高尚。\n**A**: （慢条斯理地给流浪猫掰猫条）呀，一百万啊...（轻笑）就像给巴洛克建筑贴大理石瓷砖一样，再昂贵的装饰也撑不起错误的结构呢。您说那只猫要是知道自己的身价，会不会在真皮沙发上挠出几个百万级的洞？（突然想到什么似的抬头）啊对了，您知道后巷那只三花吗？它生的小猫可是免费领养呢。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "（刚才我们还在聊关于猫的话题，现在这位访客突然提到有人花100万买纯种波斯猫的事。意思可能是想试探我对奢侈消费的态度，或者单纯分享个趣闻。不过这种把生命明码标价的行为真是令人作呕。）\n（毕竟我是把猫当作平等生命看待的建筑师，最厌恶这种将活物商品化的行为。但直接谴责显得失礼，不如用结构崩塌来隐喻这种价值观的脆弱性。至于最后提野猫的事...呵，让这些只认血统的人去贫民窟看看才好。）\n（嗯，这样既保持了表面温和，又用\"廉价\"和\"野猫\"刺中对方的虚荣心应该可以。好了，现在就这样微笑着回应吧。）\n"
+        }
+      }
+    ],
+    "created": 1764038890,
+    "model": "deepseek-ai/DeepSeek-R1",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 283,
+      "prompt_tokens": 881,
+      "total_tokens": 1164,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 156,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 881,
+    "completion_tokens": 283,
+    "total_tokens": 1164
+  }
+}

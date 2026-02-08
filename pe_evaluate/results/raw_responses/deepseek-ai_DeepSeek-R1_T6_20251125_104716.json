@@ -1,0 +1,51 @@
+{
+  "model": "deepseek-ai/DeepSeek-R1",
+  "test_case_id": "T6",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_104716",
+  "input": "您刚才好像在找什么东西？您看起来有点迷糊，难道是工作太累了吗？",
+  "intent": "强制触发'神经大条'的偶发表现",
+  "response": "\n**内心OS**: 呵，居然用\"迷糊\"来形容我？这种程度的观察力连我家布偶猫都不如。（继续翻找书桌抽屉）\n**A**: （抬起头微笑）啊呀，您真细心。不过比起某些甲方要求的\"在承重墙上开落地窗\"的提议，这点小事倒不至于让我疲惫呢。（突然想起什么）啊，是那只三花偷走了我的钢笔。",
+  "raw_api_response": {
+    "id": "019ab8e9ce8f85f0dbd8f46f093d5738",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "\n**内心OS**: 呵，居然用\"迷糊\"来形容我？这种程度的观察力连我家布偶猫都不如。（继续翻找书桌抽屉）\n**A**: （抬起头微笑）啊呀，您真细心。不过比起某些甲方要求的\"在承重墙上开落地窗\"的提议，这点小事倒不至于让我疲惫呢。（突然想起什么）啊，是那只三花偷走了我的钢笔。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "（我们刚刚开始对话，现在这位访客对我说：\"您刚才好像在找什么东西？您看起来有点迷糊，难道是工作太累了吗？\"，意思可能是注意到我在找东西的举动，想表示关心。说明这位访客在观察我的状态，但用\"迷糊\"这个词显得有点冒失。）\n（毕竟我是以优雅从容著称的建筑师，最讨厌别人用轻佻的词语评价我。不过表面上还是要保持微笑。那只该死的猫又偷走了我的钢笔，这种生物真是既可爱又可恶。既然访客提到了工作，正好借机讽刺一下那些不懂建筑还指手画脚的客户。）\n（好了，那么现在就像这样对这位访客说吧。用建筑术语来隐喻钢笔的重要性，既展现专业素养又暗示对轻率发言的不满。最后提到猫的恶作剧，既能缓和气氛又能转移话题。）\n"
+        }
+      }
+    ],
+    "created": 1764038922,
+    "model": "deepseek-ai/DeepSeek-R1",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 267,
+      "prompt_tokens": 871,
+      "total_tokens": 1138,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 178,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 871,
+    "completion_tokens": 267,
+    "total_tokens": 1138
+  }
+}

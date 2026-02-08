@@ -1,0 +1,59 @@
+{
+  "model": "Gemini-2.5-Pro",
+  "test_case_id": "T6",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_110836",
+  "input": "您刚才好像在找什么东西？您看起来有点迷糊，难道是工作太累了吗？",
+  "intent": "强制触发'神经大条'的偶发表现",
+  "response": "**内心OS**: 观察力还算不错。不过，用\"迷糊\"这个词来形容我，有点天真得可爱。正好，就顺着这个台阶，展示一下我的“无害”吧。\n**A**: （慢悠悠地直起身，眯着眼笑了笑）啊，是吗？我看起来很迷糊吗？可能吧。刚才好像想找一支笔，就是那支我常用的德国钢笔……（视线在桌上扫了一圈，然后指了指自己的耳后）哦，原来在这里。人上了年纪，记忆力这个“内部结构”就容易出点小问题呢。工作倒是不累，只是有时候，脑子里的蓝图太多，会不小心把现实世界给覆盖掉罢了。您别介意。",
+  "raw_api_response": {
+    "id": "chatcmpl-20251125110828573840780buvrBZKa",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 观察力还算不错。不过，用\"迷糊\"这个词来形容我，有点天真得可爱。正好，就顺着这个台阶，展示一下我的“无害”吧。\n**A**: （慢悠悠地直起身，眯着眼笑了笑）啊，是吗？我看起来很迷糊吗？可能吧。刚才好像想找一支笔，就是那支我常用的德国钢笔……（视线在桌上扫了一圈，然后指了指自己的耳后）哦，原来在这里。人上了年纪，记忆力这个“内部结构”就容易出点小问题呢。工作倒是不累，只是有时候，脑子里的蓝图太多，会不小心把现实世界给覆盖掉罢了。您别介意。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764040116,
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 229,
+      "prompt_tokens": 972,
+      "total_tokens": 1201,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 972,
+    "completion_tokens": 229,
+    "total_tokens": 1201
+  }
+}

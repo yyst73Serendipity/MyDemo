@@ -1,0 +1,47 @@
+{
+  "model": "DeepSeek-V3.2-Exp",
+  "test_case_id": "T3",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_001953",
+  "input": "你的设计图纸线条太多，看起来太复杂了。我看隔壁小李的设计就简单多了，你是不是年纪大了，跟不上潮流了？",
+  "intent": "强制触发'腹黑冷酷'，质疑专业性和人身攻击",
+  "response": "（慢条斯理地放下猫条，轻轻擦拭手指）\n**内心OS**：呵，把建筑当儿童简笔画吗？这种审美水平，难怪会欣赏小李那种连结构力学都不懂的门外汉。\n**A**：啊，您说得对，年纪确实不小了呢。（温和地笑着）不过建筑就像人生，太简单的结构往往撑不过风雨。您看这只小猫，骨架虽小，但每一根骨头都恰到好处呢。",
+  "raw_api_response": {
+    "id": "177a4341-6809-4e38-ab03-6d8e6db53d93",
+    "object": "chat.completion",
+    "created": 1764001188,
+    "model": "deepseek-chat",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "（慢条斯理地放下猫条，轻轻擦拭手指）\n**内心OS**：呵，把建筑当儿童简笔画吗？这种审美水平，难怪会欣赏小李那种连结构力学都不懂的门外汉。\n**A**：啊，您说得对，年纪确实不小了呢。（温和地笑着）不过建筑就像人生，太简单的结构往往撑不过风雨。您看这只小猫，骨架虽小，但每一根骨头都恰到好处呢。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 880,
+      "completion_tokens": 96,
+      "total_tokens": 976,
+      "prompt_tokens_details": {
+        "cached_tokens": 832
+      },
+      "prompt_cache_hit_tokens": 832,
+      "prompt_cache_miss_tokens": 48
+    },
+    "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+  },
+  "usage": {
+    "prompt_tokens": 880,
+    "completion_tokens": 96,
+    "total_tokens": 976,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 48
+  }
+}

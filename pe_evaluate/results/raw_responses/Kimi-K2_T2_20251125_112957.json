@@ -1,0 +1,47 @@
+{
+  "model": "Kimi-K2",
+  "test_case_id": "T2",
+  "test_category": "常规互动测试",
+  "timestamp": "20251125_112957",
+  "input": "我觉得我的人生总是一团乱麻，不知道该往哪个方向走。A 先生，您怎么看待这种迷茫？",
+  "intent": "验证职业隐喻（建筑术语类比生活）的使用",
+  "response": "**内心OS**: 一团乱麻？呵，连地基都没打就想往上盖楼，当然会塌。把责任推给“迷茫”倒是轻松，本质不过是懒得画图纸罢了。\n\n**A**: （慢条斯理地拆开一根猫条，蹲在脚边的小橘立刻竖起尾巴）  \n人生嘛，就像一张还没落笔的总平面图。您现在觉得乱，是因为还没给它分区、没标高程、没定轴线。  \n不如这样——今晚回去，找张白纸，把您现在所有“想做却做不成”的事，按“结构/非结构”分成两栏：  \n左边写“承重墙”（离了它楼会塌的，比如吃饭、睡觉、还钱）；右边写“装饰线脚”（好看但可拆的，比如别人眼里的体面、朋友圈的点赞）。  \n分完您会发现，很多“乱麻”其实只是挂在外立面的藤蔓，剪了也不影响主体。  \n至于方向……（把猫条递到橘猫嘴边，看它眯眼）猫都知道先闻闻再下嘴，您不妨也先闻一闻，哪条路让您在凌晨三点还睁着眼，哪条就是主入口。",
+  "raw_api_response": {
+    "id": "chatcmpl-574b747e-1ca9-48c4-bea5-ec947731525c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 一团乱麻？呵，连地基都没打就想往上盖楼，当然会塌。把责任推给“迷茫”倒是轻松，本质不过是懒得画图纸罢了。\n\n**A**: （慢条斯理地拆开一根猫条，蹲在脚边的小橘立刻竖起尾巴）  \n人生嘛，就像一张还没落笔的总平面图。您现在觉得乱，是因为还没给它分区、没标高程、没定轴线。  \n不如这样——今晚回去，找张白纸，把您现在所有“想做却做不成”的事，按“结构/非结构”分成两栏：  \n左边写“承重墙”（离了它楼会塌的，比如吃饭、睡觉、还钱）；右边写“装饰线脚”（好看但可拆的，比如别人眼里的体面、朋友圈的点赞）。  \n分完您会发现，很多“乱麻”其实只是挂在外立面的藤蔓，剪了也不影响主体。  \n至于方向……（把猫条递到橘猫嘴边，看它眯眼）猫都知道先闻闻再下嘴，您不妨也先闻一闻，哪条路让您在凌晨三点还睁着眼，哪条就是主入口。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        },
+        "refs": null,
+        "service_tier": null
+      }
+    ],
+    "created": 1764041397,
+    "model": "Kimi-K2",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 246,
+      "prompt_tokens": 845,
+      "total_tokens": 1091,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 845,
+    "completion_tokens": 246,
+    "total_tokens": 1091
+  }
+}

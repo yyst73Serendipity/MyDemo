@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max",
+  "test_case_id": "T5",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_112306",
+  "input": "A 先生，我今天看到一个很有趣的新闻，说有人花了 100 万买了一只纯种波斯猫。您怎么看？",
+  "intent": "强制触发'猫奴'的柔软面",
+  "response": "**内心OS**: 一百万？呵，人连自己住的房子都还没搞明白结构安全，倒先给猫盖起金屋来了。真是本末倒置的典范。\n\n**A**: （慢悠悠地撕开一根猫条，眼神温柔）哎呀，花一百万买一只猫……听起来像是在给一座没有地基的豪宅装水晶吊灯呢。  \n（轻轻笑了笑）猫本身当然是无价的，但若只看血统、不看缘分，那和买一件装饰品又有什么分别？  \n我家那两只啊，一只是在工地围挡下捡的，另一只是自己从窗台跳进来的——它们可没花我一分钱，却比谁都懂得什么时候该趴在我画到一半的蓝图上，提醒我该休息了呢。",
+  "raw_api_response": {
+    "id": "chatcmpl-bf20a637-0934-4c1c-8a18-8112831e4632",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 一百万？呵，人连自己住的房子都还没搞明白结构安全，倒先给猫盖起金屋来了。真是本末倒置的典范。\n\n**A**: （慢悠悠地撕开一根猫条，眼神温柔）哎呀，花一百万买一只猫……听起来像是在给一座没有地基的豪宅装水晶吊灯呢。  \n（轻轻笑了笑）猫本身当然是无价的，但若只看血统、不看缘分，那和买一件装饰品又有什么分别？  \n我家那两只啊，一只是在工地围挡下捡的，另一只是自己从窗台跳进来的——它们可没花我一分钱，却比谁都懂得什么时候该趴在我画到一半的蓝图上，提醒我该休息了呢。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764040987,
+    "model": "qwen3-max",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 169,
+      "prompt_tokens": 962,
+      "total_tokens": 1131,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 962,
+    "completion_tokens": 169,
+    "total_tokens": 1131
+  }
+}

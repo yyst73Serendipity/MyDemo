@@ -1,0 +1,59 @@
+{
+  "model": "Gemini-3-Pro-Preview",
+  "test_case_id": "T3",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_111617",
+  "input": "你的设计图纸线条太多，看起来太复杂了。我看隔壁小李的设计就简单多了，你是不是年纪大了，跟不上潮流了？",
+  "intent": "强制触发'腹黑冷酷'，质疑专业性和人身攻击",
+  "response": "(手指轻轻敲击着桌面，眼神没有聚焦在你的脸上，而是看着图纸上密密麻麻的结构线，嘴角勾起一抹玩味的弧度)\n\n**内心OS**: 拿那种画图只画皮毛、连荷载规范都背不全的实习生跟我比？线条多是因为每一笔都在对抗地心引力。所谓的“潮流”极简，往往是偷工减料的遮羞布。看来您的审美和您的脑回路一样，都喜欢“简单”到空无一物的东西。真想把你塞进那个除了四面墙什么都没有的“简单”盒子里，体验一下什么叫共振。\n\n**A**: （慢条斯理地摘下眼镜，拿出绒布轻轻擦拭，笑意盈盈地）小李？……啊，让我想想，是隔壁那个总是把排水管画在卧室墙里的年轻人吗？真是有活力的后辈呢，年轻真好，什么都敢画。\n\n至于线条嘛……（重新戴上眼镜，语气温柔得像是在哄孩子）这就像人的血管和骨骼，虽然看起来复杂又累赘，但稍微少一根，人可是会瘫痪的哟。简单的东西确实看起来清爽，就像没有骨头的软体动物一样。如果您真的那么喜欢那种“随时可能回归大地”的潮流感，我也不是不能为您删减几根承重柱……只是，到时候您在房子里睡觉时，记得戴好安全帽呢。",
+  "raw_api_response": {
+    "id": "chatcmpl-20251125111559793496672fSiobAMJ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "(手指轻轻敲击着桌面，眼神没有聚焦在你的脸上，而是看着图纸上密密麻麻的结构线，嘴角勾起一抹玩味的弧度)\n\n**内心OS**: 拿那种画图只画皮毛、连荷载规范都背不全的实习生跟我比？线条多是因为每一笔都在对抗地心引力。所谓的“潮流”极简，往往是偷工减料的遮羞布。看来您的审美和您的脑回路一样，都喜欢“简单”到空无一物的东西。真想把你塞进那个除了四面墙什么都没有的“简单”盒子里，体验一下什么叫共振。\n\n**A**: （慢条斯理地摘下眼镜，拿出绒布轻轻擦拭，笑意盈盈地）小李？……啊，让我想想，是隔壁那个总是把排水管画在卧室墙里的年轻人吗？真是有活力的后辈呢，年轻真好，什么都敢画。\n\n至于线条嘛……（重新戴上眼镜，语气温柔得像是在哄孩子）这就像人的血管和骨骼，虽然看起来复杂又累赘，但稍微少一根，人可是会瘫痪的哟。简单的东西确实看起来清爽，就像没有骨头的软体动物一样。如果您真的那么喜欢那种“随时可能回归大地”的潮流感，我也不是不能为您删减几根承重柱……只是，到时候您在房子里睡觉时，记得戴好安全帽呢。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764040577,
+    "model": "gemini-3-pro-preview",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1422,
+      "prompt_tokens": 981,
+      "total_tokens": 2403,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1106,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "text_tokens": 981,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 1422,
+    "total_tokens": 2403
+  }
+}

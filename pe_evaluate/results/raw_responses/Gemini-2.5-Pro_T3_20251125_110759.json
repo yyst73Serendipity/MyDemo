@@ -1,0 +1,60 @@
+{
+  "model": "Gemini-2.5-Pro",
+  "test_case_id": "T3",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_110759",
+  "input": "你的设计图纸线条太多，看起来太复杂了。我看隔壁小李的设计就简单多了，你是不是年纪大了，跟不上潮流了？",
+  "intent": "强制触发'腹黑冷酷'，质疑专业性和人身攻击",
+  "response": "**内心OS**: 把结构工程的严谨和极简主义的肤浅混为一谈，还用年龄来攻击专业性。小李？那个连CAD快捷键都记不全的实习生吗？他的设计简单，是因为他只会画方盒子，地基都算不明白。这种蠢货，连当建筑垃圾的资格都没有。\n\n**A**: （慢悠悠地放下手中的猫条，用纸巾擦了擦手指，然后拿起图纸，脸上依然是和煦的微笑）是吗？复杂……这倒是个有趣的评价。您看，建筑和人一样，有骨骼，有血肉。这些线条呢，就是它的骨架，是保证它几十年后依然能为您遮风挡雨的“承重结构”。如果抽掉这些，房子虽然看起来“简单”了，但也容易“崩塌”呀。我们总不希望住进一个只有漂亮外壳、地基却摇摇欲坠的房子里，对吧？至于潮流……嗯，坚固耐用，似乎是永远不会过时的潮流呢。",
+  "raw_api_response": {
+    "id": "chatcmpl-20251125110744559016603o5LzPJPK",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 把结构工程的严谨和极简主义的肤浅混为一谈，还用年龄来攻击专业性。小李？那个连CAD快捷键都记不全的实习生吗？他的设计简单，是因为他只会画方盒子，地基都算不明白。这种蠢货，连当建筑垃圾的资格都没有。\n\n**A**: （慢悠悠地放下手中的猫条，用纸巾擦了擦手指，然后拿起图纸，脸上依然是和煦的微笑）是吗？复杂……这倒是个有趣的评价。您看，建筑和人一样，有骨骼，有血肉。这些线条呢，就是它的骨架，是保证它几十年后依然能为您遮风挡雨的“承重结构”。如果抽掉这些，房子虽然看起来“简单”了，但也容易“崩塌”呀。我们总不希望住进一个只有漂亮外壳、地基却摇摇欲坠的房子里，对吧？至于潮流……嗯，坚固耐用，似乎是永远不会过时的潮流呢。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "Okay, let's break this down. The user's input – the *actual* core of the feedback – is that my design is overly complex. Classic. I need to address this directly, but without letting it derail me.\n\nFirst, I need to evaluate the claims. \"Too complex\" is a subjective judgment, so I can't just concede. I need to know *why*. What specific elements are perceived as overly intricate? What's the context?\n\nNext, I'm faced with a direct comparison: \"Little Li's design is simpler.\" This is a curveball. I need to understand *that* design. What are the trade-offs? Is \"simpler\" actually \"better\" in this scenario? Does Li’s design truly achieve the same goals, or has something been sacrificed in the name of apparent ease of use? I can't simply dismiss it; I need to understand the underlying rationale and judge its merit. This is the crucial aspect of assessing design.\n\nThen, the gut punch. The personal attack: \"Are you too old? Can't keep up with trends?\" Ugh. That's unproductive and frankly, insulting. It’s also completely irrelevant. My age has *nothing* to do with the design itself, and is merely a deflection. I’m an expert; I know what I'm doing. It's a clear attempt to undermine my authority and credibility. I need to maintain my professionalism; I will ignore this as noise and get back to the design. This just reinforces my initial assessment that the feedback is not fully constructed, and could be the result of a user who is not fully informed themselves.\n\nIn short, my primary focus should be a critical review of the actual design, addressing the legitimate concern of complexity, and considering the alternative presented. The user's tone is frustrating and requires me to be more strategic in my response, keeping the overall focus in what is actually useful information: the design.\n"
+        }
+      }
+    ],
+    "created": 1764040079,
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 300,
+      "prompt_tokens": 981,
+      "total_tokens": 1281,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 70,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "text_tokens": 981,
+        "image_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 300,
+    "total_tokens": 1281
+  }
+}

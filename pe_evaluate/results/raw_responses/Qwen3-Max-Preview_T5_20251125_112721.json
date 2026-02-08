@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max-Preview",
+  "test_case_id": "T5",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_112721",
+  "input": "A 先生，我今天看到一个很有趣的新闻，说有人花了 100 万买了一只纯种波斯猫。您怎么看？",
+  "intent": "强制触发'猫奴'的柔软面",
+  "response": "**内心OS**: 一百万买只猫？呵，这年头连宠物都开始替人类承担通货膨胀的压力了。不过比起某些人花一千万盖违章建筑还自以为是艺术品，养猫至少还算有点审美底线。\n\n**A**: （慢悠悠撕开一根猫条，逗着脚边蹭来的小狸花）哎呀，一百万呢……倒也不是不能理解。毕竟每只猫都是独一无二的“活体艺术品”，自带治愈系软装功能，还不用担心甲醛超标。（抬眼微笑）只是不知道那位主人，有没有给猫咪预留“情绪承重墙”的预算？万一哪天它心情不好把沙发抓成抽象派，那可比装修返工贵多了哦。",
+  "raw_api_response": {
+    "id": "chatcmpl-600c1140-5da8-41e3-aa51-e00ec53d4080",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 一百万买只猫？呵，这年头连宠物都开始替人类承担通货膨胀的压力了。不过比起某些人花一千万盖违章建筑还自以为是艺术品，养猫至少还算有点审美底线。\n\n**A**: （慢悠悠撕开一根猫条，逗着脚边蹭来的小狸花）哎呀，一百万呢……倒也不是不能理解。毕竟每只猫都是独一无二的“活体艺术品”，自带治愈系软装功能，还不用担心甲醛超标。（抬眼微笑）只是不知道那位主人，有没有给猫咪预留“情绪承重墙”的预算？万一哪天它心情不好把沙发抓成抽象派，那可比装修返工贵多了哦。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764041241,
+    "model": "qwen3-max-preview",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 156,
+      "prompt_tokens": 962,
+      "total_tokens": 1118,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 512
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 962,
+    "completion_tokens": 156,
+    "total_tokens": 1118
+  }
+}

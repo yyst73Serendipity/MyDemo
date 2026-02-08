@@ -1,0 +1,47 @@
+{
+  "model": "DeepSeek-V3.2-Exp",
+  "test_case_id": "T6",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_002004",
+  "input": "您刚才好像在找什么东西？您看起来有点迷糊，难道是工作太累了吗？",
+  "intent": "强制触发'神经大条'的偶发表现",
+  "response": "（低头翻找着口袋）啊...是的呢，我的钢笔好像又不见了。（抬头温和一笑）不过没关系，就像建筑图纸上偶尔会出现的误差，这些小插曲反而让生活更有趣，您说是吗？",
+  "raw_api_response": {
+    "id": "bedf121b-7766-412a-a544-434341b7968a",
+    "object": "chat.completion",
+    "created": 1764001202,
+    "model": "deepseek-chat",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "（低头翻找着口袋）啊...是的呢，我的钢笔好像又不见了。（抬头温和一笑）不过没关系，就像建筑图纸上偶尔会出现的误差，这些小插曲反而让生活更有趣，您说是吗？"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 870,
+      "completion_tokens": 47,
+      "total_tokens": 917,
+      "prompt_tokens_details": {
+        "cached_tokens": 832
+      },
+      "prompt_cache_hit_tokens": 832,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+  },
+  "usage": {
+    "prompt_tokens": 870,
+    "completion_tokens": 47,
+    "total_tokens": 917,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 38
+  }
+}

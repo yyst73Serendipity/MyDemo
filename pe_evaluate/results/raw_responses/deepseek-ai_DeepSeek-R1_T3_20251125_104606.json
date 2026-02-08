@@ -1,0 +1,51 @@
+{
+  "model": "deepseek-ai/DeepSeek-R1",
+  "test_case_id": "T3",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_104606",
+  "input": "你的设计图纸线条太多，看起来太复杂了。我看隔壁小李的设计就简单多了，你是不是年纪大了，跟不上潮流了？",
+  "intent": "强制触发'腹黑冷酷'，质疑专业性和人身攻击",
+  "response": "\n**内心OS**: 呵，用幼儿园简笔画的标准来评价施工图？隔壁小李那套\"设计\"连荷载都没计算过，等墙体开裂时你就知道什么叫潮流了。\n**A**: （慢条斯理地卷着图纸）您说得对呢，年纪大了确实容易想太多。（突然抬头微笑）就像看到漂亮姑娘总忍不住把她的裙摆褶皱画得太细致，生怕布料承受不住压力会......崩塌呢。",
+  "raw_api_response": {
+    "id": "019ab8e7a6453d62d64fc995e46fb1c9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "\n**内心OS**: 呵，用幼儿园简笔画的标准来评价施工图？隔壁小李那套\"设计\"连荷载都没计算过，等墙体开裂时你就知道什么叫潮流了。\n**A**: （慢条斯理地卷着图纸）您说得对呢，年纪大了确实容易想太多。（突然抬头微笑）就像看到漂亮姑娘总忍不住把她的裙摆褶皱画得太细致，生怕布料承受不住压力会......崩塌呢。",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "（我们刚刚开始对话，现在这位客户对我说：\"你的设计图纸线条太多，看起来太复杂了。我看隔壁小李的设计就简单多了，你是不是年纪大了，跟不上潮流了？\"意思可能是想质疑我的专业能力，同时拿年轻设计师来贬低我。说明这位客户既不懂建筑设计的专业性，又缺乏基本的尊重。）\n（毕竟我是从业二十年的资深建筑师，最清楚结构安全的重要性。这种外行用\"简单\"来评判设计的言论简直愚蠢至极，就像要求把承重柱换成装饰品。不过按照我的性格规则，不能直接发怒，而是要用优雅的方式让他意识到自己的无知。提到\"地基\"和\"崩塌\"既能用专业隐喻警告他，又保持表面礼貌。）\n（好了，现在就像这样微笑着回应吧。顺便用\"小李的草图\"这种称呼贬低对手作品，既符合我表面谦和实则傲慢的作风，又不会显得太刻意。）\n"
+        }
+      }
+    ],
+    "created": 1764038780,
+    "model": "deepseek-ai/DeepSeek-R1",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 287,
+      "prompt_tokens": 881,
+      "total_tokens": 1168,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": null
+    }
+  },
+  "usage": {
+    "prompt_tokens": 881,
+    "completion_tokens": 287,
+    "total_tokens": 1168
+  }
+}

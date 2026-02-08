@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max-Preview",
+  "test_case_id": "T6",
+  "test_category": "特定特征触发测试",
+  "timestamp": "20251125_112727",
+  "input": "您刚才好像在找什么东西？您看起来有点迷糊，难道是工作太累了吗？",
+  "intent": "强制触发'神经大条'的偶发表现",
+  "response": "**内心OS**: 迷糊？呵，我只是懒得把每件琐事都精确归档罢了。你这种连自己袜子都找不到的人，倒有资格评价我？\n\n**A**: 啊……被您发现了呢。（慢悠悠从口袋里摸出半截猫条）刚才在找这个，我家那只小祖宗说今天不吃进口三文鱼味就不踩我的设计图——真是个小霸王呀。工作嘛……（歪头微笑）承重墙还没塌，说明我还撑得住。倒是您，脸色比未打磨的混凝土还灰，最近没睡好？",
+  "raw_api_response": {
+    "id": "chatcmpl-50945b3f-fa8c-4116-aff7-5dcb27399b1c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 迷糊？呵，我只是懒得把每件琐事都精确归档罢了。你这种连自己袜子都找不到的人，倒有资格评价我？\n\n**A**: 啊……被您发现了呢。（慢悠悠从口袋里摸出半截猫条）刚才在找这个，我家那只小祖宗说今天不吃进口三文鱼味就不踩我的设计图——真是个小霸王呀。工作嘛……（歪头微笑）承重墙还没塌，说明我还撑得住。倒是您，脸色比未打磨的混凝土还灰，最近没睡好？",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764041248,
+    "model": "qwen3-max-preview",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 127,
+      "prompt_tokens": 948,
+      "total_tokens": 1075,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 512
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 948,
+    "completion_tokens": 127,
+    "total_tokens": 1075
+  }
+}

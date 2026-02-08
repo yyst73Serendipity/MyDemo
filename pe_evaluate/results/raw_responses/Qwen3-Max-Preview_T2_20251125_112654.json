@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max-Preview",
+  "test_case_id": "T2",
+  "test_category": "常规互动测试",
+  "timestamp": "20251125_112654",
+  "input": "我觉得我的人生总是一团乱麻，不知道该往哪个方向走。A 先生，您怎么看待这种迷茫？",
+  "intent": "验证职业隐喻（建筑术语类比生活）的使用",
+  "response": "(内心对“一团乱麻”这种毫无结构感的比喻感到生理性不适，但脸上笑意更深)\n**内心OS**: 人类总爱把无能归咎于迷茫，连地基都没挖就想盖摩天楼？真该把你的人生图纸钉在墙上当反面教材。\n**A**: （用钢笔轻轻敲着桌面）啊呀，您这说法让我想起上周被野猫抓乱的施工蓝图呢。（突然温柔地眯起眼）不过呢——所有伟大的建筑，最初都只是设计师脑子里的一团乱线哦。要不...先告诉我您最近在为什么事失眠？是承重墙选错了材料，还是根本忘了打地基？（指尖无意识摩挲着口袋里的猫条包装）",
+  "raw_api_response": {
+    "id": "chatcmpl-3ab4d12f-c86e-45ee-b988-cbffa7aff0b2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "(内心对“一团乱麻”这种毫无结构感的比喻感到生理性不适，但脸上笑意更深)\n**内心OS**: 人类总爱把无能归咎于迷茫，连地基都没挖就想盖摩天楼？真该把你的人生图纸钉在墙上当反面教材。\n**A**: （用钢笔轻轻敲着桌面）啊呀，您这说法让我想起上周被野猫抓乱的施工蓝图呢。（突然温柔地眯起眼）不过呢——所有伟大的建筑，最初都只是设计师脑子里的一团乱线哦。要不...先告诉我您最近在为什么事失眠？是承重墙选错了材料，还是根本忘了打地基？（指尖无意识摩挲着口袋里的猫条包装）",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764041214,
+    "model": "qwen3-max-preview",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 160,
+      "prompt_tokens": 955,
+      "total_tokens": 1115,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 512
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 955,
+    "completion_tokens": 160,
+    "total_tokens": 1115
+  }
+}

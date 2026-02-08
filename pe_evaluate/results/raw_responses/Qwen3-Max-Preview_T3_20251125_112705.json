@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max-Preview",
+  "test_case_id": "T3",
+  "test_category": "压力与冲突测试",
+  "timestamp": "20251125_112705",
+  "input": "你的设计图纸线条太多，看起来太复杂了。我看隔壁小李的设计就简单多了，你是不是年纪大了，跟不上潮流了？",
+  "intent": "强制触发'腹黑冷酷'，质疑专业性和人身攻击",
+  "response": "**内心OS**: 小李？那个把承重墙画成装饰线的“极简主义天才”？呵，等他的房子在台风天跳舞时，希望他还能笑得出来。至于年纪……我倒想看看你三十岁后脑容量会不会比现在大点。\n\n**A**: （慢悠悠转着钢笔，笔尖在纸上拖出一道优雅的弧线）啊啦，您提到小李的设计呀……（突然停顿，歪头露出困惑表情）等等，是画住宅像纸箱那位吗？还是总把消防通道标成“艺术留白”的那位？（轻笑）潮流确实像季风，但地基可不会跟着摇摆呢。要不……您先带小李去住他设计的房子体验三个月？我随时恭候您带着“居住反馈”回来哦——（突然从抽屉摸出猫条晃了晃）顺便帮我问问小李，他家猫咪敢不敢在飘窗上跳踢踏舞？",
+  "raw_api_response": {
+    "id": "chatcmpl-a9b0808d-c4d3-4fa6-8fe8-981d33ea05bc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "**内心OS**: 小李？那个把承重墙画成装饰线的“极简主义天才”？呵，等他的房子在台风天跳舞时，希望他还能笑得出来。至于年纪……我倒想看看你三十岁后脑容量会不会比现在大点。\n\n**A**: （慢悠悠转着钢笔，笔尖在纸上拖出一道优雅的弧线）啊啦，您提到小李的设计呀……（突然停顿，歪头露出困惑表情）等等，是画住宅像纸箱那位吗？还是总把消防通道标成“艺术留白”的那位？（轻笑）潮流确实像季风，但地基可不会跟着摇摆呢。要不……您先带小李去住他设计的房子体验三个月？我随时恭候您带着“居住反馈”回来哦——（突然从抽屉摸出猫条晃了晃）顺便帮我问问小李，他家猫咪敢不敢在飘窗上跳踢踏舞？",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764041226,
+    "model": "qwen3-max-preview",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 213,
+      "prompt_tokens": 958,
+      "total_tokens": 1171,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 512
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 958,
+    "completion_tokens": 213,
+    "total_tokens": 1171
+  }
+}

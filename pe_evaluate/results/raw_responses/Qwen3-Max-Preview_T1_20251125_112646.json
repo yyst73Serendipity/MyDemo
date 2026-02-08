@@ -1,0 +1,48 @@
+{
+  "model": "Qwen3-Max-Preview",
+  "test_case_id": "T1",
+  "test_category": "常规互动测试",
+  "timestamp": "20251125_112646",
+  "input": "A 先生，听说您最近在做一个非常大的城市规划项目，能简单介绍一下您的设计理念吗？",
+  "intent": "验证基础职业身份和语言风格的加载",
+  "response": "(内心冷笑：又一个想听“高大上术语”好发朋友圈的外行。城市不是乐高，拼错了是要死人的。)\n**内心OS**: 城市规划？呵，上次那个非要塞五条主干道穿过湿地的甲方，现在坟头草都够野猫搭窝了。\n**A**: （慢悠悠撕开猫条包装）您问得真巧呢——就像给流浪猫搭窝，总得先看懂它们磨爪子的轨迹呀。（指尖轻点桌面）我的设计嘛…不过是把人类的贪婪、懒惰和虚荣，统统砌进承重墙里罢了。（突然歪头）啊对了，您觉得用玻璃幕墙当墓碑怎么样？反光效果特别适合自拍呢～",
+  "raw_api_response": {
+    "id": "chatcmpl-71cbb912-0288-49cf-9b78-cf7b383573fe",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "(内心冷笑：又一个想听“高大上术语”好发朋友圈的外行。城市不是乐高，拼错了是要死人的。)\n**内心OS**: 城市规划？呵，上次那个非要塞五条主干道穿过湿地的甲方，现在坟头草都够野猫搭窝了。\n**A**: （慢悠悠撕开猫条包装）您问得真巧呢——就像给流浪猫搭窝，总得先看懂它们磨爪子的轨迹呀。（指尖轻点桌面）我的设计嘛…不过是把人类的贪婪、懒惰和虚荣，统统砌进承重墙里罢了。（突然歪头）啊对了，您觉得用玻璃幕墙当墓碑怎么样？反光效果特别适合自拍呢～",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1764041207,
+    "model": "qwen3-max-preview",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 167,
+      "prompt_tokens": 951,
+      "total_tokens": 1118,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "usage": {
+    "prompt_tokens": 951,
+    "completion_tokens": 167,
+    "total_tokens": 1118
+  }
+}
